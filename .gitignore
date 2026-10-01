@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# MLflow run artifact directories and database
+mlruns/
+.mlflow/
+mlflow.db
+
+# Large data files (exceed GitHub 100MB limit)
+india_housing_prices.csv
+data/processed/cleaned_housing_data.csv
+# Note: cleaned_housing_data.parquet (~5.8MB) is KEPT in the repo for Streamlit Cloud deployment
+
+# Generated / temporary files
+docx_extracted.txt
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
